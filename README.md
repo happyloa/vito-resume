@@ -93,7 +93,6 @@ components
 
 - `jsconfig.json` - 專案路徑別名設定 (Path Aliases `@/*` -> `./*`)
 - `next.config.mjs` - 將網站匯出為靜態檔案
-- `.node-version` - Cloudflare Pages 建置使用的 Node.js 版本
 
 ## 靜態檔案
 
@@ -120,6 +119,7 @@ public
 - 框架預設：Next.js (Static HTML Export)
 - 建置指令：`npm run build`
 - 輸出目錄：`out`
+- Cloudflare Pages 專案設定中的舊指令 `npx @cloudflare/next-on-pages@1` 必須改成上述建置指令
 
 ## 使用的套件 & 工具
 
