@@ -3,8 +3,6 @@
  *
  * 顯示首頁最上方的個人姓名與大頭照。
  */
-"use client";
-
 import styles from "./Hero.module.css";
 
 export default function Hero() {

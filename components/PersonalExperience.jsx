@@ -3,8 +3,6 @@
  *
  * 顯示聯絡資訊、學歷、工作經歷與獲獎紀錄。
  */
-"use client";
-
 import styles from "./PersonalExperience.module.css";
 import HeadingWithLine from "./ui/HeadingWithLine";
 

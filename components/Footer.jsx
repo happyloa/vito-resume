@@ -1,10 +1,8 @@
 /**
  * 頁尾元件 (Footer)
  *
- * 呈現社群媒體連結按鈕。
+ * 呈現社群媒體圖示。
  */
-"use client";
-
 import styles from "./Footer.module.css";
 
 export default function Footer() {
@@ -15,17 +13,9 @@ export default function Footer() {
             data-aos-duration="400"
             data-aos-offset="50"
         >
-            <a href="#" target="_blank" rel="noopener noreferrer">
-                <img src="image/fb.webp" alt="Facebook profile" />
-            </a>
-
-            <a href="#" target="_blank" rel="noopener noreferrer">
-                <img src="image/instagram.webp" alt="Instagram profile" />
-            </a>
-
-            <a href="#" target="_blank" rel="noopener noreferrer">
-                <img src="image/line.webp" alt="Line profile" />
-            </a>
+            <img src="image/fb.webp" alt="Facebook" />
+            <img src="image/instagram.webp" alt="Instagram" />
+            <img src="image/line.webp" alt="Line" />
         </footer>
     );
 }

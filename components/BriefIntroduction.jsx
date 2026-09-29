@@ -3,8 +3,6 @@
  *
  * 顯示個人的簡短自我介紹。
  */
-"use client";
-
 import styles from "./BriefIntroduction.module.css";
 
 export default function BriefIntroduction() {

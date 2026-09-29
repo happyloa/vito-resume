@@ -92,7 +92,6 @@ components
 專案使用 JavaScript / JSX 進行開發，相關設定檔：
 
 - `jsconfig.json` - 專案路徑別名設定 (Path Aliases `@/*` -> `./*`)
-- `next.config.mjs` - Next.js 設定檔
 
 ## 靜態檔案
 
@@ -109,10 +108,10 @@ public
     └── vito.webp                        個人照片
 ```
 
-## 程式碼規範
+## 專案驗證
 
 - 所有程式碼皆使用 JavaScript 與 JSX 撰寫
-- 遵循 ESLint 與 Next.js 官方程式碼規範
+- 使用 `npm run build` 驗證正式建置
 
 ## 使用的套件 & 工具
 
