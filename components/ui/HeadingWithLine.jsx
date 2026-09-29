@@ -7,5 +7,5 @@
 import styles from "./HeadingWithLine.module.css";
 
 export default function HeadingWithLine({ Heading }) {
-    return <h3 className={styles.experienceHeading}>{Heading}</h3>;
+  return <h3 className={styles.experienceHeading}>{Heading}</h3>;
 }

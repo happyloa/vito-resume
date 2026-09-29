@@ -9,13 +9,13 @@ import { useEffect } from "react";
 import AOS from "aos";
 
 export default function AosInitializer() {
-    useEffect(() => {
-        AOS.init({
-            once: true,       // 動畫只播放一次
-            duration: 500,    // 預設動畫持續時間（毫秒）
-            easing: "ease-out",
-        });
-    }, []);
+  useEffect(() => {
+    AOS.init({
+      once: true, // 動畫只播放一次
+      duration: 500, // 預設動畫持續時間（毫秒）
+      easing: "ease-out",
+    });
+  }, []);
 
-    return null;
+  return null;
 }
