@@ -92,6 +92,8 @@ components
 專案使用 JavaScript / JSX 進行開發，相關設定檔：
 
 - `jsconfig.json` - 專案路徑別名設定 (Path Aliases `@/*` -> `./*`)
+- `next.config.mjs` - 將網站匯出為靜態檔案
+- `.node-version` - Cloudflare Pages 建置使用的 Node.js 版本
 
 ## 靜態檔案
 
@@ -112,6 +114,12 @@ public
 
 - 所有程式碼皆使用 JavaScript 與 JSX 撰寫
 - 使用 `npm run build` 驗證正式建置
+
+## Cloudflare Pages 部署
+
+- 框架預設：Next.js (Static HTML Export)
+- 建置指令：`npm run build`
+- 輸出目錄：`out`
 
 ## 使用的套件 & 工具
 
